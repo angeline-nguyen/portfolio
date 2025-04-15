@@ -1,0 +1,52 @@
+/* Brand Color Styles */
+.brandColors{
+    background-color: #0b818d;
+    color: #ffffff;
+}
+
+.brandColorsReversed{
+    background-color: #ffffff;
+    color: #0b818d;
+}
+
+.borderBrandColor{
+    border-color: #0b818d;
+}
+
+/* General Styles */
+.center{
+    text-align: center;
+}
+
+.fancy{
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2, h3, h4, h5{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+p, a{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* Specific Styles */
+#bigName{
+    font-size: 4em;
+}
+
+#brandName{
+    color: #0b818d;
+}
