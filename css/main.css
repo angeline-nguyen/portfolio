@@ -13,6 +13,10 @@
     border-color: #0b818d;
 }
 
+.textBrandColor{
+    color:#0b818d;
+}
+
 /* General Styles */
 .center{
     text-align: center;
@@ -49,6 +53,10 @@ p, a{
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+
+ul{
+    list-style-type: none;
 }
 
 /* Specific Styles */
