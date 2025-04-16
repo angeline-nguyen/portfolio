@@ -43,27 +43,37 @@
     </nav>
     <!--End Navigation-->
 
-    <div class="container">
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Name:</label>
-          <input type="text" class="form-control" id="name" placeholder="Firstname Lastname">
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email Address:</label>
-          <input type="email" class="form-control" id="email" placeholder="email@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
-        </div>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+    <header class="my-5 pt-5 brandColorsReversed">
+      <div class="pt-3 px-3 center">
+        <h1 class="fancy bigName pb-3">Contact Me</h1>
+        <p class="fs-4">Fill out the form below and I will respond within 3 business days.</p>
+        <p class="fs-5">Please double-check that your email is correct before hitting submit.</p>
+      </div>
+    </header>
+
+    <section id="contactForm" class="brandColors">
+      <div class="container my-3 py-5">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="First Last" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address:</label>
+            <input type="email" class="form-control" id="email" placeholder="email@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label" required>Message</label>
+            <textarea class="form-control" id="message" rows="5"></textarea>
+          </div>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+  </section>
 
     <!--Footer-->
     <footer>
-      <div class="container">
+      <div class="container my-3">
         <small>Copyright © 2025 Angeline Nguyen</small>
       </div>
     </footer>
