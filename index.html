@@ -45,9 +45,9 @@
 
     <!--Header-->
     <header class="brandColorsReversed center">
-      <div class="container my-5 pt-5 pb-3 px-3">
+      <div class="container my-5 p-3">
         <h1 id="bigName" class="my-5 fancy">Angeline Nguyen</h1>
-        <p>Full Stack Development Student. </p>
+        <p id="tagline">Full Stack Development Student. Creative Thinker. Life-Long Learner. </p>
         <div class="d-flex justify-content-center">
           <a href="https://github.com/angeline-nguyen" class ="btn btn-primary m-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -76,10 +76,15 @@
     <section id="about" class="brandColors">
       <div class="container my-5 py-5 px-3">
         <h2 class="py-3">About Me</h2>
-        <img src="https://www.angeline-nguyen.com/portfolio/img/headshot_circle.png" alt="headshot of Angeline Nguyen cropped into a circle" class ="img-fluid ">
-        <div class="float-md-end">
-          <p>Hi, I'm Angeline!</p>
-          <a href="https://www.angeline-nguyen.com/portfolio/about.html" class="btn btn-primary border-white">Learn More About Me</a>
+        <div class="d-flex flex-column flex-md-row align-items-center gap-5">
+          <img src="https://www.angeline-nguyen.com/portfolio/img/headshot_circle.png" alt="headshot of Angeline Nguyen cropped into a circle" class ="img-fluid">
+          <div class="container">
+            <h3 class="smaller">Hi, I'm Angeline!</h3>
+            <p>I am currently studying full stack development, though frontend is my first love. I was previously in a Web development program from 2018-2019, but had to leave due to job demands. I am excited to continue my education and my pursuit of a career in Web development.</p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <a href="https://www.angeline-nguyen.com/portfolio/about.html" class="btn btn-primary border-white">Learn More About Me</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -89,12 +94,12 @@
     <section id="featuredProjects" class="brandColorsReversed">
       <div class="container my-5 px-3">
         <h2 class="py-3">Featured Projects</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card h-100">
               <img src="https://www.angeline-nguyen.com/portfolio/img/image_maker.png" class="card-img-top" alt="screenshot of image maker project: a picture of Boromir from The Lord of the Rings with text reading 'One does not simply create new memes'">
               <div class="card-body border-top">
-                <h4 class="card-title">Image Maker</h4>
+                <h3 class="card-title smaller">Image Maker</h4>
                 <p class="card-text">This project allows the user to place their own text over various meme backgrounds. They then have the option of downloading their meme.</p>
               </div>
               <div class="card-footer d-flex justify-content-between">
@@ -107,7 +112,7 @@
             <div class="card h-100">
               <img src="https://www.angeline-nguyen.com/portfolio/img/bootstrap.png" class="card-img-top" alt="screenshot of a fake business's shop page with wigs, magnifying glasses, and a journal">
               <div class="card-body border-top">
-                <h4 class="card-title">Fake Business</h4>
+                <h3 class="card-title smaller">Fake Business</h4>
                 <p class="card-text">This is project is a multi-page website for a fake business. Additional details of the business can be found in the design docs in the GitHub repository.</p>
               </div>
               <div class="card-footer d-flex justify-content-between">
@@ -120,7 +125,7 @@
             <div class="card h-100">
               <img src="https://www.angeline-nguyen.com/portfolio/img/product.png" class="card-img-top" alt="screenshot of the landing page for a fake product website, the product looks like sunglasses">
               <div class="card-body border-top">
-                <h4 class="card-title">Fake Product</h4>
+                <h3 class="card-title smaller">Fake Product</h4>
                 <p class="card-text">This project is a single-page website for a fake product. Additional details of the product can be found in the design docs in the GitHub repository.</p>
               </div>
               <div class="card-footer d-flex justify-content-between">
