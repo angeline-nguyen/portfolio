@@ -8,3 +8,6 @@ At this point in time, I also have completed fewer projects and learned less bac
 
 Once my comprehensive portfolio is completed, I will update this README to link to that. 
 
+## Live Demo
+
+This portfolio can be viewed at [https://www.angeline-nguyen.com/portfolio](https://www.angeline-nguyen.com/portfolio). 
