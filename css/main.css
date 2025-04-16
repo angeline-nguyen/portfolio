@@ -25,6 +25,9 @@
     font-style: normal;
 }
 
+.bigName{
+    font-size: 4em;
+}
 
 .smaller{
     font-size: 1.5em; /* used to make h3 smaller while keeping semantics in my HTML */
@@ -49,10 +52,6 @@ p, a{
 }
 
 /* Specific Styles */
-#bigName{
-    font-size: 4em;
-}
-
 #brandName{
     color: #0b818d;
 }
