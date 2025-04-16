@@ -56,7 +56,7 @@ p, a{
 }
 
 ul{
-    list-style-type: none;
+    margin-left: -1em;
 }
 
 /* Specific Styles */
