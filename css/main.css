@@ -25,6 +25,12 @@
     font-style: normal;
 }
 
+
+.smaller{
+    font-size: 1.5em; /* used to make h3 smaller while keeping semantics in my HTML */
+}
+    
+
 h2, h3, h4, h5{
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -49,4 +55,9 @@ p, a{
 
 #brandName{
     color: #0b818d;
+}
+
+#tagline{
+    font-weight: bold;
+    font-size: 1.75em;
 }
