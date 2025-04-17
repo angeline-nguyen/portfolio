@@ -44,12 +44,23 @@
     <!--End Navigation-->
 
     <header class="mt-5 py-5 brandColors">
-      <div class="pt-3 px-3 center">
+      <div class="pt-3 center">
         <h1 class="fancy bigName pb-3">Contact Me</h1>
-        <p class="fs-4">Fill out the form below and I will respond within 3 business days.</p>
+        <p class="fs-4 smallSpace">Fill out the form below and I will respond within 3 business days.</p>
         <p class="fs-5">Please double-check that your email is correct before hitting submit.</p>
       </div>
     </header>
+
+    <!--Spinner While Form Loads-->
+    <div id="spinner" class="container center">
+      <div class="d-flex justify-content-center pt-5">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      <p class="pt-3">Form Loading</p>
+    </div>
+    <!--End Spinner-->
 
     <!--Formaloo Form (PHP was not working [likely a problem with Squarespace configurations]; with no quick fix I decided to use this service)-->
     <div class="formaloo--root-container" data-form-slug="sRzToG6M"></div>
